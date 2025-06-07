@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "react-markdown": "^10.1.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
