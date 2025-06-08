@@ -113,7 +113,7 @@ export const createPost = async (req, res) => {
             _id: { $ne: user._id },
             notificationPreferences: { $ne: 'none' } // Only users who want notifications
         }).select('email');
-    const recipientEmails ="tadesemengistu255@gmail.com"
+    const recipientEmails =`${process.env.RECIPIENT_EMAILS}`
        // recipients.map(recipient => recipient.email).filter(emial => emial)
     if (recipientEmails.length > 0) {
         let transporter = nodemailer.createTransport({
@@ -126,7 +126,7 @@ export const createPost = async (req, res) => {
 
 
          const mailOptions = {
-            from:`mengistu3137@gmail.com`,
+            from:`${process.env.SENDER_EMAIL}`,
             bcc:recipientEmails,
             subject: `New Post: ${post.title}`,
                 html: `
