@@ -54,7 +54,7 @@ cd frontend
 npm install
 # or yarn install
 
-``.env Setup for backend
+.env Setup for backend
 PORT=your port
 CLERK_WEBHOOK_SECRET=your_clerk_webhook_secret_here
 MONGODB_URL=your_mongodb_connection_string
