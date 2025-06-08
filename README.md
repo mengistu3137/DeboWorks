@@ -54,11 +54,10 @@ cd frontend
 npm install
 # or yarn install
 
-.env Setup for backend
+```.env Setup for backend
 PORT=your port
 CLERK_WEBHOOK_SECRET=your_clerk_webhook_secret_here
 MONGODB_URL=your_mongodb_connection_string
-MONGODB_URL2=your_second_mongodb_connection_string
 CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 CLIENT_URL=http://localhost:5173
@@ -76,7 +75,7 @@ CHASECK_TEST=your_chapa_secret_key
 CHAPA_BASE_URL=https://api.chapa.co/v1
 CHAPA_WEBHOOK_HASH=your_chapa_webhook_hash
 RECIPIENT_EMAILS=
-``.env Setup for Frontend
+```.env Setup for Frontend
 
 VITE_IK_URL_ENDPOINT=your_ImageKit endpoint
 VITE_IK_PUBLIC_KEY=your Imagekit public key
