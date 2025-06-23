@@ -17,7 +17,7 @@ Here's a glimpse of the DeboWork homepage, showcasing its user-friendly interfac
 
 ![DeboWork Homepage](./screenshots/debo_homePage.png)
 
-*(Important: To display this image on GitHub, please create an `images` folder in the root of your repository and place your `debo_homePage.png` file inside it.)*
+
 
 ## Tech Stack
 
